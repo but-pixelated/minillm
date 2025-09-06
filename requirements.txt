@@ -1,0 +1,16 @@
+torch
+torchvision
+torchaudio
+transformers
+datasets
+sentencepiece
+accelerate
+fastapi
+uvicorn
+tqdm
+bitsandbytes
+python-multipart
+sentence-transformers
+pypdf
+blobfile
+protobuf
