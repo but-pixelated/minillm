@@ -34,7 +34,7 @@ minillm/
 │ ├── search.py # query top k passages <br>
 │ └── index/ # generated vector indexes (ignored in git) <br>
 │ <br>
-├── web/ # minimal html/js ui <br>
+├── web/ # html/js ui <br>
 │ └── index.html <br>
 │ <br>
 ├── tokenizer/ # optional tokenizer artifacts <br>
