@@ -1,4 +1,3 @@
-
 <p align="center">
   <img src="assets/demo.png" alt="minillm demo" width="800"/>
 </p>
@@ -23,7 +22,7 @@ tested on macbook pro m1. lightweight + educational.
 minillm/
 ├── src/ # training + serving code <br>
 │ ├── server_hf.py # fastapi server for pretrained model <br>
-│ ├── server.py # (optional) server for scratch-trained model <br>
+│ ├── server.py # (optional) server for scratch trained model <br>
 │ ├── train_minigpt.py # training loop for mini-llm <br>
 │ ├── sample_minillm.py <br>
 │ ├── model.py # gpt like model definition <br>
