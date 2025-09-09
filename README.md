@@ -28,29 +28,29 @@ minillm/
 │ ├── sample_minillm.py <br>
 │ ├── model.py # gpt like model definition <br>
 │ └── tools/ # helpers: tokenizer training, binify, corpus downloader <br>
-│
+│  <br>
 ├── rag/ # retrieval augmented generation(RAG) pipeline <br>
 │ ├── ingest.py # chunk + embed documents <br>
 │ ├── build_index.py # build faiss/annoy index <br>
 │ ├── search.py # query top k passages <br>
 │ └── index/ # generated vector indexes (ignored in git) <br>
-│
+│ <br>
 ├── web/ # minimal html/js ui <br>
 │ └── index.html <br>
-│
+│ <br>
 ├── tokenizer/ # optional tokenizer artifacts <br>
 │ ├── spm_bpe_16k.model <br>
 │ └── spm_bpe_16k.vocab <br>
-│
+│ <br>
 ├── checkpoints/ # training checkpoints (ignored in git) <br>
 │ └── out-minillm/best.pt <br>
-│
+│ <br>
 ├── pretrained/ # pointers for hf pretrained models <br>
 │ └── README_PRETRAINED.md <br>
-│
+│ <br>
 ├── scripts/ # helpers for downloads + setup <br>
 │ └── download_weights.sh <br>
-│
+│ <br>
 ├── README.md <br>
 ├── README_RAG.md <br>
 ├── requirements.txt <br>
