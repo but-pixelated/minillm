@@ -22,39 +22,39 @@ tested on macbook pro m1. lightweight + educational.
 ## repo structure
 minillm/
 ├── src/ # training + serving code <br>
-│ ├── server_hf.py # fastapi server for pretrained model <br></br>
-│ ├── server.py # (optional) server for scratch-trained model <br></br>
-│ ├── train_minigpt.py # training loop for mini-llm
-│ ├── sample_minillm.py
-│ ├── model.py # gpt-like model definition
-│ └── tools/ # helpers: tokenizer training, binify, corpus downloader
+│ ├── server_hf.py # fastapi server for pretrained model <br>
+│ ├── server.py # (optional) server for scratch-trained model <br>
+│ ├── train_minigpt.py # training loop for mini-llm <br>
+│ ├── sample_minillm.py <br>
+│ ├── model.py # gpt like model definition <br>
+│ └── tools/ # helpers: tokenizer training, binify, corpus downloader <br>
 │
-├── rag/ # retrieval-augmented generation pipeline
-│ ├── ingest.py # chunk + embed documents
-│ ├── build_index.py # build faiss/annoy index
-│ ├── search.py # query top-k passages
-│ └── index/ # generated vector indexes (ignored in git)
+├── rag/ # retrieval augmented generation(RAG) pipeline <br>
+│ ├── ingest.py # chunk + embed documents <br>
+│ ├── build_index.py # build faiss/annoy index <br>
+│ ├── search.py # query top k passages <br>
+│ └── index/ # generated vector indexes (ignored in git) <br>
 │
-├── web/ # minimal html/js ui
-│ └── index.html
+├── web/ # minimal html/js ui <br>
+│ └── index.html <br>
 │
-├── tokenizer/ # optional tokenizer artifacts
-│ ├── spm_bpe_16k.model
-│ └── spm_bpe_16k.vocab
+├── tokenizer/ # optional tokenizer artifacts <br>
+│ ├── spm_bpe_16k.model <br>
+│ └── spm_bpe_16k.vocab <br>
 │
-├── checkpoints/ # training checkpoints (ignored in git)
-│ └── out-minillm/best.pt
+├── checkpoints/ # training checkpoints (ignored in git) <br>
+│ └── out-minillm/best.pt <br>
 │
-├── pretrained/ # pointers for hf pretrained models
-│ └── README_PRETRAINED.md
+├── pretrained/ # pointers for hf pretrained models <br>
+│ └── README_PRETRAINED.md <br>
 │
-├── scripts/ # helpers for downloads + setup
-│ └── download_weights.sh
+├── scripts/ # helpers for downloads + setup <br>
+│ └── download_weights.sh <br>
 │
-├── README.md
-├── README_RAG.md
-├── requirements.txt
-└── .gitignore
+├── README.md <br>
+├── README_RAG.md <br>
+├── requirements.txt <br>
+└── .gitignore <br>
 
 
 ---
