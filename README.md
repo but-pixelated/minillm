@@ -58,7 +58,7 @@ minillm/
 
 ---
 
-## 🚀 quickstart
+## quickstart
 
 ### 1. setup environment
 ```bash
