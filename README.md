@@ -21,9 +21,9 @@ tested on macbook pro m1. lightweight + educational.
 
 ## repo structure
 minillm/
-├── src/ # training + serving code <br> </br>
-│ ├── server_hf.py # fastapi server for pretrained model
-│ ├── server.py # (optional) server for scratch-trained model
+├── src/ # training + serving code <br></br>
+│ ├── server_hf.py # fastapi server for pretrained model <br></br>
+│ ├── server.py # (optional) server for scratch-trained model <br></br>
 │ ├── train_minigpt.py # training loop for mini-llm
 │ ├── sample_minillm.py
 │ ├── model.py # gpt-like model definition
